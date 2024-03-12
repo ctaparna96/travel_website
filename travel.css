@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* navbar */
+
+#navbar{
+    background-color: white;
+}
+#logo{
+    font-size: 35px;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 5px;
+}
+#logo span{
+    color: red;
+}
+.navbar-toggler span{
+    color:orangered;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background-color: yellow;
+    color: black;
+}
+
+/* home section */
+
+#home{
+    width: 100%;
+    height: 90vh;
+    background-image: url(https://st.depositphotos.com/1500858/2555/i/450/depositphotos_25558141-stock-photo-travel-the-world-by-airplane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home .content{
+    text-align: center;
+
+}
+#home p{
+    padding: 0px 100px;
+    font-size: 20px;
+}
+#home h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    color: orangered;
+}
+#home .content a{
+    padding: 10px;
+    background:wheat;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s; 
+}
+#home .content a:hover{
+    background:orange;
+}
+@media (max-width:850px){
+    #home{
+        background-position: 50%;
+    }
+}
+@media (max-width:450px){
+    #home .content h1{
+        font-size: 35px;
+    }
+    #home .content p{
+        font-size: 10px;
+    }
+}
+
+/* book section */
+
+.book{
+    background: wheat;
+    padding: 50px;
+}
+.main-head h1{
+     text-align: center;
+     font-weight: 800;
+}
+.row{
+    padding: 50px;
+}
+.book .card{
+    border-radius: 10px;
+}
+.book form textarea{
+    border: none;
+    border-radius: 10px;
+    height: 100px;
+}
+.book .submit{
+    width: 160px;
+    font-size: 20px;
+    font-weight: 550;
+    background: orange;
+    color: white;
+    margin-top: 15px;
+    margin-left: 150px;
+    transition: 0.5s;
+}
+.book .submit:hover{
+    width: 170px;
+}
+@media(max-width:765px){
+    .book{
+        padding: 0;
+    }
+    .main-head h1{
+        padding: 20px;
+    }
+}
