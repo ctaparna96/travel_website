@@ -130,3 +130,151 @@
         padding: 20px;
     }
 }
+
+/* section package */
+
+.packages .main-head h1{
+    margin-top: 20px;
+}
+.packages .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+.packages .card img{
+    border-radius: 5px;
+}
+.packages .card .card-body{
+    background: transparent;
+}
+.packages .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.checked{
+    color:orange;
+}
+.star i{
+    font-size: 15px;
+}
+.packages .card .card-body h6{
+    font-size: 18px;
+}
+.packages .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background: orange;
+    color:white;
+    border-radius: 2px;
+}
+
+
+/* service section */
+
+.services{
+    background: white;
+    margin-top: 50px;
+}
+.services .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+.services .card i{
+    font-size: 80px;
+    text-align: center;
+    color: orange;
+    margin-top: 20px;
+
+}
+.services .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.services .card-body{
+    text-align: center;
+}
+
+
+/* section Gallary */
+.Gallary{
+    margin-top: 50px;
+}
+.Gallary .card{
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+.Gallary .card img{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.Gallary .card img:hover{
+    transform: scale(1.1);
+}
+
+/* about section */
+.about{
+    margin-top: 50px;
+    background: white;
+
+}
+.about .card{
+    border-radius: 10px;
+}
+.about .card img{
+    border-radius: 10px;
+}
+.about h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.about p{
+    font-size: 500;
+}
+#about-btn{
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background: orange;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 580;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#about-btn:hover{
+    width: 170px;
+}
+
+/* footer */
+#footer{
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    background: whitesmoke;
+}
+#footer h1{
+    font-weight: 500;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+
+}
+#footer h1 span{
+    color: orange;
+}
+.icons{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.icons i:hover{
+    background: orange;
+}
